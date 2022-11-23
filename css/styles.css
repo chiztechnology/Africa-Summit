@@ -100,9 +100,9 @@ body {
 .program-article {
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 90%;
+  width: 95%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -110,16 +110,234 @@ body {
 .program-article-img {
     width: 45px;
     padding-left: 5px;
-    padding-right: 5px;
+    /* padding-right: 5px; */
 }
 
 .program-article-title{
     color: #ec5242;
+    padding-left: 10px;
     padding-right: 5px;
+    width: 90px;
 }
 
 .program-article-description {
+  color: #fff;
     font-size: 12px;
     font-weight: 300;
     padding-right: 5px;
+    width: 200px;
+}
+
+.button-join-submit {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 80px;
+  width: 80%;
+  background-color: #ec5242;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  border:none;
+}
+
+.featured-speaker-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-speaker-title {
+  color:#272a31;
+  font-size: 18px;
+  font-weight: 400;
+  height: 30px;
+  border-bottom-color: #ec5242;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.speaker-articles-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-article {
+  display: flex;
+  padding: 10px;
+}
+
+.speaker-article-img-container {
+  width: 30%;
+  background-image: url('../img/speaker_background.png');
+  background-position:top left;
+  
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+
+.speaker-article-img {
+  width: 80%;
+  height: auto;
+  padding-top: 15px;
+  padding-left: 15px;
+  
+}
+
+.speaker-article-description-container {
+  width: 70%;
+  padding-left: 5px;
+}
+
+.speaker-name {
+  font-size: 16;
+  font-weight: 100;
+  color: #272a31;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.speaker-position {
+  color: #ec5242;
+  font-size: 14px;
+  margin-top: 5;
+  margin-bottom: 0;
+}
+
+.speaker-description {
+  font-weight: 100;
+  padding-top: 4px;
+  color: #272a31;
+  font-size: 14px;
+  margin-top: 5;
+  margin-bottom: 0;
+}
+
+.partners-section {
+  background-color: #272a31;
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-title {
+  color:#fff;
+  font-size: 18px;
+  font-weight: 400;
+  height: 30px;
+  border-bottom-color: #ec5242;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.partner-logo {
+  width: 30%;
+  height: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.partners-container {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer {
+  display: flex;
+  margin:20px
+  /* justify-content: space-around; */
+}
+
+footer a {
+  width: 40%;
+  height: auto;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+}
+
+footer p {
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(45, 44, 44, 0.9);
+  padding-top: 20px;
+  padding-right: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.mobile-nav-ul {
+  padding-top: 30px;
+}
+
+.mobile-nav-li {
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.mobile-nav-link{
+  text-decoration: none;
+}
+
+.mobile-nav-element-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom-color: #e9e7e7;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.mobile-nav-icon-next{
+  width: 20px;
+  height: auto;
+}
+
+.mobile-nav-link-title {
+  color: #e9e7e7;
+  font-weight: 300;
+}
+
+.menu-items {
+  margin-top: 40px;
+}
+
+.mobile-nav-img {
+  width: 134px;
+  height: auto;
+}
+
+.close-icon {
+  width: 20px;
+  height: auto;
+  float: right;
+  margin-right: 20px;
 }
