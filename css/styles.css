@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  width : 100% ;
+  width: 100%;
 }
 
 * {
@@ -9,15 +9,13 @@ body {
 
 .nav-section {
   display: block;
+  width: 100%;
+  height: 60px;
+
 }
 
 .wide-nav-bar {
   display: none;
-}
-
-.nav-section {
-  width: 100%;
-  height: 60px;
 }
 
 .hamburger-img {
@@ -30,7 +28,7 @@ body {
   padding: 8px;
   background-image: url('../img/pngtree-iphone8-apple-mobile-phone-conference-banner-image_170165.jpeg');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 .welcome-subtitle {
@@ -67,16 +65,18 @@ body {
 
 .welcome-date-txt {
   font-size: 28px;
-  font-weight: 1400;
+  font-weight: 700;
   color: #272a31;
   margin-bottom: 10px;
 }
 
 .welcome-address-txt {
   font-weight: 400;
-  font-size: 14px;
   color: #272a31;
   margin-top: 10px;
+  font-size: 13px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .main-program-container {
@@ -91,7 +91,7 @@ body {
 }
 
 .main-program-title {
-  color:#fff;
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   height: 30px;
@@ -120,23 +120,23 @@ body {
 }
 
 .program-article-img {
-    width: 45px;
-    padding-left: 5px;
+  width: 45px;
+  padding-left: 5px;
 }
 
-.program-article-title{
-    color: #ec5242;
-    padding-left: 10px;
-    padding-right: 5px;
-    width: 90px;
+.program-article-title {
+  color: #ec5242;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 90px;
 }
 
 .program-article-description {
   color: #fff;
-    font-size: 12px;
-    font-weight: 300;
-    padding-right: 5px;
-    width: 200px;
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 5px;
+  width: 200px;
 }
 
 .button-join-submit {
@@ -148,7 +148,7 @@ body {
   color: white;
   font-size: 18px;
   font-weight: 100;
-  border:none;
+  border: none;
 }
 
 .featured-speaker-container {
@@ -161,7 +161,7 @@ body {
 }
 
 .featured-speaker-title {
-  color:#272a31;
+  color: #272a31;
   font-size: 18px;
   font-weight: 400;
   height: 30px;
@@ -187,8 +187,8 @@ body {
 .speaker-article-img-container {
   width: 30%;
   background-image: url('../img/speaker_background.png');
-  background-position:top left;
-  
+  background-position: top left;
+
   background-size: 60px;
   background-repeat: no-repeat;
 }
@@ -198,7 +198,7 @@ body {
   height: auto;
   padding-top: 15px;
   padding-left: 15px;
-  
+
 }
 
 .speaker-article-description-container {
@@ -207,7 +207,7 @@ body {
 }
 
 .speaker-name {
-  font-size: 16;
+  font-size: 16px;
   font-weight: 100;
   color: #272a31;
   margin-top: 0;
@@ -217,7 +217,7 @@ body {
 .speaker-position {
   color: #ec5242;
   font-size: 14px;
-  margin-top: 5;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
@@ -226,7 +226,7 @@ body {
   padding-top: 4px;
   color: #272a31;
   font-size: 14px;
-  margin-top: 5;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
@@ -243,7 +243,7 @@ body {
 }
 
 .partners-title {
-  color:#fff;
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   height: 30px;
@@ -262,7 +262,7 @@ body {
 .partners-container {
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding-left: 5px;
@@ -271,7 +271,7 @@ body {
 
 footer {
   display: flex;
-  margin:20px
+  margin: 20px;
 }
 
 footer a {
@@ -310,7 +310,7 @@ footer p {
   margin-right: 40px;
 }
 
-.mobile-nav-link{
+.mobile-nav-link {
   text-decoration: none;
 }
 
@@ -324,7 +324,7 @@ footer p {
   border-bottom-style: solid;
 }
 
-.mobile-nav-icon-next{
+.mobile-nav-icon-next {
   width: 20px;
   height: auto;
 }
@@ -379,12 +379,6 @@ footer p {
   justify-content: center;
 }
 
-.welcome-address-txt{
-  font-size: 13px;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
 #welcome-contact-email {
   color: #272a31;
   font-size: 13px;
@@ -403,7 +397,7 @@ footer p {
 
 .cc-logo-title {
   text-align: center;
-  color:#272a31;
+  color: #272a31;
   font-size: 22px;
   font-weight: 700;
   height: 60px;
@@ -441,13 +435,10 @@ footer p {
 
 .past-cc-title {
   text-align: center;
-  color:#272a31;
+  color: #272a31;
   font-size: 22px;
   font-weight: 700;
   height: 40px;
-  /* border-bottom-color: #ec5242; */
-  /* border-bottom-width: 1px;
-  border-bottom-style: solid; */
 }
 
 .past-cc-desc {
@@ -484,14 +475,14 @@ footer p {
   background-image: url('../img/cc-conf-1.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 }
 
 .cc-article-warsaw {
   background-image: url('../img/cc-conf-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 768px) {
@@ -564,6 +555,7 @@ footer p {
   footer {
     justify-content: center;
   }
+
   footer a {
     width: 16%;
     height: auto;
@@ -573,11 +565,11 @@ footer p {
     display: none;
   }
 
-  .wide-nav-bar{
+  .wide-nav-bar {
     width: 100%;
     height: 50px;
     box-shadow: 0 4px 2px -2px rgb(202, 201, 201);
-    position:fixed;
+    position: fixed;
     background-color: #fff;
     top: 0;
     align-items: center;
@@ -603,7 +595,6 @@ footer p {
   .wide-nav-link {
     text-decoration: none;
     color: #272a31;
-
   }
 
   .cc-logo-img {
@@ -628,7 +619,7 @@ footer p {
   }
 
   .past-cc-article {
-    margin:5px;
+    margin: 5px;
     width: 30%;
   }
 
