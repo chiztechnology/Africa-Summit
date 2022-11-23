@@ -106,3 +106,20 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+.program-article-img {
+    width: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.program-article-title{
+    color: #ec5242;
+    padding-right: 5px;
+}
+
+.program-article-description {
+    font-size: 12px;
+    font-weight: 300;
+    padding-right: 5px;
+}
