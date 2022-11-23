@@ -4,7 +4,15 @@ body {
 }
 
 * {
- scroll-behaviour : smooth ;
+  scroll-behavior: smooth;
+}
+
+.nav-section {
+  display: block;
+}
+
+.wide-nav-bar {
+  display: none;
 }
 
 .nav-section {
@@ -18,7 +26,11 @@ body {
 }
 
 .welcome-container {
+  margin-top: 40px;
   padding: 8px;
+  background-image: url('../img/pngtree-iphone8-apple-mobile-phone-conference-banner-image_170165.jpeg');
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .welcome-subtitle {
@@ -416,6 +428,7 @@ footer p {
 }
 
 .past-cc-container {
+  margin-top: 60px;
   border-top-width: 1px;
   border-top-color: #272a31;
   border-top-style: solid;
@@ -432,9 +445,9 @@ footer p {
   font-size: 22px;
   font-weight: 700;
   height: 40px;
-  border-bottom-color: #ec5242;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
+  /* border-bottom-color: #ec5242; */
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid; */
 }
 
 .past-cc-desc {
@@ -479,4 +492,147 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .welcome-container {
+    padding-left: 180px;
+  }
+
+  .welcome-title {
+    font-size: 48px;
+    width: 38%;
+    height: auto;
+    line-height: 1em;
+    font-weight: 700;
+    color: #ec5242;
+    margin-top: 20px;
+  }
+
+  .welcome-description-container {
+    width: 40%;
+  }
+
+  .welcome-date-adress-container {
+    width: 30%;
+  }
+
+  .program-articles-container {
+    flex-direction: row;
+  }
+
+  .program-article {
+    flex-direction: column;
+    padding-top: 20px;
+    width: 160px;
+    height: 200px;
+    margin-right: 5px;
+  }
+
+  .program-article-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 150px;
+  }
+
+  .program-article-description {
+    width: 120px;
+    text-align: center;
+  }
+
+  .speaker-article {
+    width: 45%;
+    height: auto;
+  }
+
+  .partner-logo {
+    width: 15%;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .partners-section {
+    height: 260px;
+  }
+
+  footer {
+    justify-content: center;
+  }
+  footer a {
+    width: 16%;
+    height: auto;
+  }
+
+  .nav-section {
+    display: none;
+  }
+
+  .wide-nav-bar{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 2px -2px rgb(202, 201, 201);
+    position:fixed;
+    background-color: #fff;
+    top: 0;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .wide-nav-bar-ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 0;
+  }
+
+  .wide-nav-li {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .wide-nav-link {
+    text-decoration: none;
+    color: #272a31;
+
+  }
+
+  .cc-logo-img {
+    width: 40%;
+    height: auto;
+    padding: 40px;
+    border-width: 1px;
+    border-color: #d8d9da;
+    border-style: solid;
+  }
+
+  .past-cc-container {
+    flex-direction: row;
+  }
+
+  .article-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .past-cc-title {
+   width: 25%;
+   text-align: center;
+  } */
+  
+  .past-cc-article {
+    margin:5px;
+    width: 30%;
+  }
 }

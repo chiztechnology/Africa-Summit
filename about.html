@@ -12,6 +12,27 @@
     </head>
     <body>
         <header>
+            <!-- wide format navbar -->
+            <nav class="wide-nav-bar">
+                <a id="mobile-drawer-close-icon">
+                    <a href="#" class="mobile-nav-link"><img src="img/cc_logo_black.png" alt="logo" class="mobile-nav-img"></a>
+                </a>
+                <ul class="wide-nav-bar-ul">
+                    <li class="wide-nav-li">
+                        <a href="index.html" class="wide-nav-link" id="home-link">Home</a>
+                    </li>
+                    <li class="wide-nav-li">
+                        <a href="#" class="wide-nav-link" id="about-link">About</a>
+                    </li>
+                    <li class="wide-nav-li">
+                        <a href="#past-cc-summit" class="wide-nav-link" id="program-link">Past CC Global Summit</a>
+                    </li>
+                    <li class="wide-nav-li">
+                        <a href="#partners-section" class="wide-nav-link" id="speakers-link">Partners</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- hamburger -->
             <nav class="nav-section">
                 <a href="#" id="hamburger"><img src="img/hamburger.png" alt="menu icon" class="hamburger-img" /></a>
             </nav>
@@ -65,21 +86,23 @@
                 <img class="cc-logo-img" src="img/cc_logo_black.png" alt="cc logo" />
                 
             </div>
-            <div class="past-cc-container">
+            <div class="past-cc-container" id="past-cc-summit">
                 <h2 class="past-cc-title">See the past CC Global Summit</h2>
                 <h4 class="past-cc-desc">Take a look on the last two CC Global Summit that took place in Buenos Aires and in Warsaw</h4>
-                <article class="past-cc-article cc-article-buenos">
-                    <h2 class="past-cc-article-date">2013</h2>
-                    <h4 class="past-cc-article-desc">CC Global Summit in Buenos Aires</h4>
-                </article>
-                 <article class="past-cc-article cc-article-warsaw">
-                    <h2 class="past-cc-article-date">2011</h2>
-                    <h4 class="past-cc-article-desc">CC Global Summit in Warsaw</h4>
-                </article>
+                <div class="article-holder">
+                    <article class="past-cc-article cc-article-buenos">
+                        <h2 class="past-cc-article-date">2013</h2>
+                        <h4 class="past-cc-article-desc">CC Global Summit in Buenos Aires</h4>
+                    </article>
+                     <article class="past-cc-article cc-article-warsaw">
+                        <h2 class="past-cc-article-date">2011</h2>
+                        <h4 class="past-cc-article-desc">CC Global Summit in Warsaw</h4>
+                    </article>
+                </div>
             </div>
             
             <!-- partners section -->
-        <div class="partners-section">
+        <div class="partners-section" id="partners-section">
             <h2 class="partners-title">Partners</h2>
             <div class="partners-container">
                 <img class="partner-logo" src="img/google_logo.png" alt="Google logo" />
