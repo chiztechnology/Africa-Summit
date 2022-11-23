@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  width : 375px ;
+  width : 100% ;
 }
 
 * {
@@ -626,13 +626,19 @@ footer p {
     align-items: center;
     justify-content: center;
   }
-  /* .past-cc-title {
-   width: 25%;
-   text-align: center;
-  } */
-  
+
   .past-cc-article {
     margin:5px;
     width: 30%;
+  }
+
+  .speaker-articles-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
