@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>About page | Africa Summit Conference</title>
+        <meta http-equiv="" content="" />
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <nav>
-                <a><img src="img/hamburger.png" alt="menu icon" /></a>
+            <nav class="nav-section">
+                <a href="#" id="hamburger"><img src="img/hamburger.png" alt="menu icon" class="hamburger-img" /></a>
             </nav>
-            
+            <!-- mobile nav -->
+            <nav class="mobile-nav">
+                <a id="mobile-drawer-close-icon">
+                    <img src="img/close_icon.png" alt="Ext icon" class="close-icon">
+                </a>
+                <ul class="mobile-nav-ul">
+                    <li class="mobile-nav-li">
+                        <a href="index.html" class="mobile-nav-link"><img src="img/cc_logo_white.png" alt="logo" class="mobile-nav-img"></a>
+                    </li>
+                    <li class="mobile-nav-li menu-items">
+                        <a href="index.html" class="mobile-nav-link" id="home-link">
+                            <div class="mobile-nav-element-container">
+                                <h3 class="mobile-nav-link-title">Home</h3>
+                                <img src="img/icon_next.png" alt="" class="mobile-nav-icon-next">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mobile-nav-li">
+                        <a href="#" class="mobile-nav-link" id="about-link">
+                            <div class="mobile-nav-element-container">
+                                <h3 class="mobile-nav-link-title">About</h3>
+                                <img src="img/icon_next.png" alt="" class="mobile-nav-icon-next">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
         </header>
         
         <main>
@@ -48,27 +78,29 @@
                 </article>
             </div>
             
-            /*partners section*/
-            <div class="partners-section">
-                <h2 class="partners-title">Partners</h2>
-                <div class="partners-container">
-                    <img class="partner-logo" src="img/partner-1.png" alt="partner logo" />
-                     <img class="partner-logo" src="img/partner-2.png" alt="partner logo" />
-                     <img class="partner-logo" src="img/partner-3.png" alt="partner logo" />
-                     <img class="partner-logo" src="img/partner-4.png" alt="partner logo" />
-                     <img class="partner-logo" src="img/partner-5.png" alt="partner logo" />
-                </div>
-                
+            <!-- partners section -->
+        <div class="partners-section">
+            <h2 class="partners-title">Partners</h2>
+            <div class="partners-container">
+                <img class="partner-logo" src="img/google_logo.png" alt="Google logo" />
+                <img class="partner-logo" src="img/airbnb_logo.png" alt="Airbnb logo" />
+                <img class="partner-logo" src="img/naver_logo.png" alt="Naver logo" />
+                <img class="partner-logo" src="img/daumkakao_logo.png" alt="DaumKakao logo" />
+                <img class="partner-logo" src="img/mozilla_logo.png" alt="Mozilla logo" />
             </div>
+
+        </div>
             
         </main>
         
         <footer>
-            <a><img src="img/hamburger.png" alt="menu icon" /></a>
+            <a href="#"><img src="img/cc_logo_black.png" alt="menu icon" /></a>
             <p>
                 2015 Creative common Korea. <br /> some rights reserved.
             </p>
-            
+    
         </footer>
+    
+        <script src="js/main.js"></script>
     </body>
 </html>

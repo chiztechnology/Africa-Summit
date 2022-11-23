@@ -289,8 +289,7 @@ footer p {
   padding-top: 20px;
   padding-right: 20px;
   visibility: hidden;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  /* transition: visibility 1s ease-in-out; */
 }
 
 .mobile-nav-ul {
