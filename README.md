@@ -77,7 +77,7 @@ After you're finished please remove all the comments and instructions!
 
 > Link to my deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://chiztechnology.github.io/Africa-Summit/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
