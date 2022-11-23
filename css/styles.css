@@ -487,6 +487,10 @@ footer p {
     width: 100%;
   }
 
+  .mobile-nav {
+    visibility: hidden;
+  }
+
   .welcome-container {
     padding-left: 180px;
   }
