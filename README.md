@@ -47,7 +47,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -58,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 **[Africa-Summit]** is a JAVASCRIPT project
 
-## 🛠 Built With <a name="built-with">html - CSS- Javascript</a>
+## 🛠 Built With <a name="built-with">Html - CSS - Javascript</a>
 
 <!-- Features -->
 
@@ -79,13 +78,17 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://chiztechnology.github.io/Africa-Summit/)
 
+> Link to the video presenting features of the project.
+
+- [Vide Record](https://www.loom.com/share/c5a777bed0ee41a8ade015be951496ed)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+>  how could you make use of this project.
 
 To get a local copy up and running, follow these steps.
 
@@ -111,7 +114,7 @@ Enter the follow code to run the project locally:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> the collaborators of this project.
 
 👤 **Israel CHIZUNGU**
 
@@ -137,9 +140,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please support and rate us ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,9 +149,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+ For Cindy Shin [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)  “all rights reserved”
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
