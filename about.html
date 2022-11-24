@@ -8,27 +8,44 @@
         <link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <!-- wide format navbar -->
             <nav class="wide-nav-bar">
-                    <a href="#" class="mobile-nav-link"><img src="img/cc_logo_black.png" alt="logo" class="mobile-nav-img"></a>
+                <div class="nav-black-banner">
+                    <ul class="nav-black-ul">
+                        <li class="nav-black-li"><a href="#" class="nav-black-link"><img src="img/icons8-f-de-facebook-24.png" alt="Facebook icon" class="nav-black-img"></a></li>
+                        <li class="nav-black-li"><a href="#" class="nav-black-link"><img src="img/icons8-twitter-24.png" alt="Twitter icon" class="nav-black-img"></a></li>
+                        <li class="nav-black-li"><a href="#" class="nav-black-link">English</a></li>
+                        <li class="nav-black-li"><a href="#" class="nav-black-link">My Page</a></li>
+                        <li class="nav-black-li"><a href="#" class="nav-black-link">Logout</a></li>
+                    </ul>
+                </div>
+                <div class="nav-white-banner">
+                    <a href="index.html" class="mobile-nav-link"><img src="img/CC_Global_Summit_2015 (1).png" alt="logo" class="mobile-nav-img"></a>
                 <ul class="wide-nav-bar-ul">
                     <li class="wide-nav-li">
-                        <a href="index.html" class="wide-nav-link" >Home</a>
+                        <a href="#" class="wide-nav-link active" >About</a>
                     </li>
                     <li class="wide-nav-li">
-                        <a href="#" class="wide-nav-link" >About</a>
+                        <a href="#main-program-container" class="wide-nav-link" >Program</a>
                     </li>
                     <li class="wide-nav-li">
-                        <a href="#past-cc-summit" class="wide-nav-link">Past CC Global Summit</a>
+                        <a href="#" class="wide-nav-link">Join</a>
                     </li>
                     <li class="wide-nav-li">
-                        <a href="#partners-section" class="wide-nav-link" >Partners</a>
+                        <a href="#" class="wide-nav-link">Sponsor</a>
+                    </li>
+                    <li class="wide-nav-li">
+                        <a href="#" class="wide-nav-link">News</a>
+                    </li>
+                    <li class="wide-nav-li">
+                        <a href="#past-cc-summit" class="wide-nav-link nav-link-cc-compaign">CC Compaign</a>
                     </li>
                 </ul>
+                </div>
             </nav>
             <!-- hamburger -->
             <nav class="nav-section">
@@ -65,26 +82,31 @@
         </header>
         
         <main>
-            <div class="welcome-container">
-                <h2 class="welcome-subtitle">Hello Sharing World</h2>
+            <section class="welcome-container">
                 <h1 class="welcome-title">CREATIVE COMMONS GLOBAL SUMMT 2022</h1>
                 <div class="welcome-description-container-about">
                     <p class="welcome-description-text-about">
-                      the global summit brings together the community of experts, academics and activists who comprise the creative commons affiliate network in a different country every two. <br />this year we hope to expand our invitation list including organizations and individuals.
+                        In particular, this year's CC Summit
+                        is looking for participation from a variety of organizations and individuals who want to join in activities to spread the value of sharing, free culture and open knowledge with CC.
+                        Free software advocates, Wikipedia activists, Open Knowledge Foundation activists, art galleries, libraries, museums, archives, governments, foundations, lawyers, activists, and others.
+                        foundations, lawyers, social activists and others active in open content and open knowledge are coming together to create richer and more dynamic content.
+                        and dynamic content. I hope this will be an opportunity to share concerns about creating an ecosystem.
+                        
+                        Translated with www.DeepL.com/Translator (free version)
                     </p>
                 </div>
                 <div class="welcome-contact-container">
                     <h4 class="welcome-address-txt">Please contact us per email for any further question about CC Global summit 2015</h4>
                     <a id="welcome-contact-email" href="mailto:ccsummit2015@cckorea.com">ccsummit2015@cckorea.com</a>
                 </div>
-            </div>
-            <div class="cc-logo-container">
+            </section>
+            <section class="cc-logo-container">
                 <h2 class="cc-logo-title">Creative Common Global Summit 2015 logo</h2>
                 <h5 class="cc-logo-desc">the logo of CC Summit 2015 was decided through the logo competition from 5th to 6th jully</h5>
                 <img class="cc-logo-img" src="img/cc_logo_black.png" alt="cc logo" />
                 
-            </div>
-            <div class="past-cc-container" id="past-cc-summit">
+            </section>
+            <section class="past-cc-container" id="past-cc-summit">
                 <h2 class="past-cc-title">See the past CC Global Summit</h2>
                 <h4 class="past-cc-desc">Take a look on the last two CC Global Summit that took place in Buenos Aires and in Warsaw</h4>
                 <div class="article-holder">
@@ -97,10 +119,10 @@
                         <h4 class="past-cc-article-desc">CC Global Summit in Warsaw</h4>
                     </article>
                 </div>
-            </div>
+            </section>
             
             <!-- partners section -->
-        <div class="partners-section" id="partners-section">
+        <section class="partners-section-about" id="partners-section">
             <h2 class="partners-title">Partners</h2>
             <div class="partners-container">
                 <img class="partner-logo" src="img/google_logo.png" alt="Google logo" />
@@ -110,13 +132,13 @@
                 <img class="partner-logo" src="img/mozilla_logo.png" alt="Mozilla logo" />
             </div>
 
-        </div>
+        </section>
             
         </main>
         
-        <footer>
-            <a href="#"><img src="img/cc_logo_black.png" alt="menu icon" /></a>
-            <p>
+        <footer class="about-footer">
+            <a href="#"><img src="img/cc_logo_white.png" alt="CC Summit logo" /></a>
+            <p class="about-footer-paragraph">
                 2015 Creative common Korea. <br /> some rights reserved.
             </p>
     
