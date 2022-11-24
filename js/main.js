@@ -58,7 +58,7 @@ const speakers = [
     function: 'Teacher and assistant',
     description: 'Develops, plans, and implements curriculum, lesson plans, and educational programs for student audiences within areas of expertise. Advises, tests, and teaches students audiences in a variety of academic subjects.',
     img: 'speaker_2.webp',
-  }
+  },
 ];
 
 // document.onload = ()=>{

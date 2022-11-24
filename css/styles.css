@@ -243,7 +243,6 @@ body {
 }
 
 .partners-section-about {
-  display: block;
   background-color: #272a31;
   margin-top: 10px;
   width: 100%;
@@ -641,8 +640,8 @@ footer p {
   }
 
   .nav-link-cc-compaign {
-    padding-left: 20px;
     padding: 8px;
+    padding-left: 20px;
     border-color: #ec5242;
     border-width: 4px;
     border-style: solid;
