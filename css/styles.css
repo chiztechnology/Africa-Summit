@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  min-width: 375px;
+  width:100%;
 }
 
 * {
@@ -23,6 +23,15 @@ body {
 }
 
 .welcome-container {
+  margin-top: 40px;
+  padding: 8px;
+  padding-top: 80px;
+  background-image: url('../img/main_big.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-container-about {
   margin-top: 40px;
   padding: 8px;
   padding-top: 80px;
@@ -378,10 +387,12 @@ footer p {
 
 .welcome-description-container-about {
   width: 70%;
-  height: 120px;
+  height: auto;
   background-color: #fff;
   border-color: #e9e7e7;
   border-width: 1px;
+  display: flex;
+  flex-direction: column;
   border-style: solid;
   align-items: center;
   justify-content: center;
@@ -402,6 +413,7 @@ footer p {
   align-items: center;
   justify-content: center;
 }
+
 
 #welcome-contact-email {
   color: #272a31;
@@ -519,7 +531,10 @@ footer p {
   }
 
   .welcome-container {
-    /* padding-left: 180px; */
+    padding-left: 180px;
+  }
+
+  .welcome-container-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
