@@ -38,6 +38,10 @@ body {
   background-image: url('../img/main_big.png');
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome-subtitle {
@@ -49,6 +53,7 @@ body {
   font-weight: 700;
   color: #ec5242;
   width: 100%;
+  text-align: center;
 }
 
 .welcome-description-container {
@@ -519,6 +524,18 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.partners-section-about {
+  display: none !important;
+  background-color: #272a31;
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
