@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  width:100%;
+  width: 100%;
 }
 
 * {
@@ -99,6 +99,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 5px;
+  background-image: url('../img/pattern_bg.png');
 }
 
 .main-program-title {
@@ -413,7 +414,6 @@ footer p {
   align-items: center;
   justify-content: center;
 }
-
 
 #welcome-contact-email {
   color: #272a31;
